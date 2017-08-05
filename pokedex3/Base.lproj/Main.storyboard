@@ -40,6 +40,7 @@
                             </imageView>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="A8g-Sd-R5V">
                                 <rect key="frame" x="20" y="129" width="335" height="518"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="WN0-IW-Lz8">
                                     <size key="itemSize" width="105" height="105"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -105,6 +106,9 @@
                             <constraint firstItem="6Lz-54-MLj" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="zEI-F2-dXY"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="collection" destination="A8g-Sd-R5V" id="ylY-E8-gS4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
