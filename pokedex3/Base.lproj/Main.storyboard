@@ -398,7 +398,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MDU-tK-tTI">
                                 <rect key="frame" x="0.0" y="489" width="375" height="30"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Next Evolution: Venesaur LVL 32" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F0t-1S-2t7">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Next Evolution: Venesaur LVL 32" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F0t-1S-2t7">
                                         <rect key="frame" x="0.0" y="5" width="375" height="20"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Italic" family="Helvetica Neue" pointSize="17"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -407,10 +407,10 @@
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="0.34509803919999998" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="F0t-1S-2t7" secondAttribute="trailing" id="8m9-Z5-VmR"/>
                                     <constraint firstAttribute="height" constant="30" id="NUA-CP-lWH"/>
-                                    <constraint firstItem="F0t-1S-2t7" firstAttribute="centerX" secondItem="MDU-tK-tTI" secondAttribute="centerX" id="OfK-mr-o3h"/>
-                                    <constraint firstItem="F0t-1S-2t7" firstAttribute="leading" secondItem="MDU-tK-tTI" secondAttribute="leading" id="lru-ZG-zk8"/>
+                                    <constraint firstAttribute="trailing" secondItem="F0t-1S-2t7" secondAttribute="trailing" id="ngE-m1-0IC"/>
+                                    <constraint firstItem="F0t-1S-2t7" firstAttribute="leading" secondItem="MDU-tK-tTI" secondAttribute="leading" id="tbd-Gf-Btb"/>
+                                    <constraint firstItem="F0t-1S-2t7" firstAttribute="centerY" secondItem="MDU-tK-tTI" secondAttribute="centerY" id="tjR-9L-rsn"/>
                                 </constraints>
                             </view>
                         </subviews>
