@@ -38,7 +38,6 @@ class pokemonDetailVC: UIViewController {
         
         pokemon.downloadPokemonDetail {
             
-            print("did arrive here?")
             //whatever we write here will only be called after the network call is complete.
             self.updateUI()
         }
@@ -51,6 +50,21 @@ class pokemonDetailVC: UIViewController {
         heightLbl.text = pokemon.height
         weightLbl.text = pokemon.weight
         typeLbl.text = pokemon.type
+        descriptionLbl.text = pokemon.description
+        
+        if pokemon.nextEvolutionId == "" {
+            
+            evoLbl.text = "No Evolutions"
+            nextEvoImg.isHidden = true
+        } else {
+            
+            nextEvoImg.isHidden = false
+            nextEvoImg.image = UIImage(named: pokemon.nextEvolutionId)
+            
+            let str = "Next Evolution: \(pokemon.nextEvolutionName) - LVL \(pokemon.nextEvolutionLevel)"
+            evoLbl.text = str
+        
+        }
     }
 
     @IBAction func backBtnPressed(_ sender: UIButton) {
